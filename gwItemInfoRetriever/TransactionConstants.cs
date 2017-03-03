@@ -10,9 +10,11 @@ namespace gwItemInfoRetriever
     {
         //This nonrefundable cost covers listing (or selling instantly) and holding your items for sale. This fee has a minimum of 1
         //5%
-        const double SellingListFee = .05;
+        public const double SellingListFee = .05;
         //After a successful trade, the item exchange fee is deducted from coins delivered to the seller. This fee has a minimum of 1
         //10%
-        const double SellingExchangeFee = .1;
+        public const double SellingExchangeFee = .1;
+        //
+        public const string BaseUrlAddress = "https://api.guildwars2.com/v2/";
     }
 }

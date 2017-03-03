@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
 using System.Net;
 using System.Web.Script.Serialization;
 using System.IO;
-using System.Collections;
 
 namespace gwItemInfoRetriever
 {
@@ -63,15 +57,12 @@ namespace gwItemInfoRetriever
 
         public static object MakeApiRequest<T>(string suffix)
         {
-            string baseApiMethodUrl = "https://api.guildwars2.com/v2/";
-
-            var request = (HttpWebRequest)WebRequest.Create(baseApiMethodUrl + suffix);
+            var request = (HttpWebRequest)WebRequest.Create(TransactionConstants.BaseUrlAddress + suffix);
             request.Method = "GET";
 
             var serializer = new JavaScriptSerializer();
             var response = request.GetResponse();
 
-            
             using (var reader = new StreamReader(response.GetResponseStream()))
             {
                 var responseString = reader.ReadToEnd();
