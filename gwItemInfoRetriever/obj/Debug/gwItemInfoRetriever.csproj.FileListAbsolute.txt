@@ -1,0 +1,8 @@
+c:\users\merse\documents\visual studio 2015\Projects\gwItemInfoRetriever\gwItemInfoRetriever\bin\Debug\gwItemInfoRetriever.exe.config
+c:\users\merse\documents\visual studio 2015\Projects\gwItemInfoRetriever\gwItemInfoRetriever\bin\Debug\gwItemInfoRetriever.exe
+c:\users\merse\documents\visual studio 2015\Projects\gwItemInfoRetriever\gwItemInfoRetriever\bin\Debug\gwItemInfoRetriever.pdb
+c:\users\merse\documents\visual studio 2015\Projects\gwItemInfoRetriever\gwItemInfoRetriever\bin\Debug\Newtonsoft.Json.dll
+c:\users\merse\documents\visual studio 2015\Projects\gwItemInfoRetriever\gwItemInfoRetriever\bin\Debug\Newtonsoft.Json.xml
+c:\users\merse\documents\visual studio 2015\Projects\gwItemInfoRetriever\gwItemInfoRetriever\obj\Debug\gwItemInfoRetriever.csprojResolveAssemblyReference.cache
+c:\users\merse\documents\visual studio 2015\Projects\gwItemInfoRetriever\gwItemInfoRetriever\obj\Debug\gwItemInfoRetriever.exe
+c:\users\merse\documents\visual studio 2015\Projects\gwItemInfoRetriever\gwItemInfoRetriever\obj\Debug\gwItemInfoRetriever.pdb
